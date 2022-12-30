@@ -50,3 +50,55 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit (Beta) (Debug)
 Author: Evelyn
 
+Package: ellekit-logging
+Architecture: iphoneos-arm64
+Version: 4a25bbd+logging
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 1732
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-debug
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-debug
+Filename: ./pool/ellekit_4a25bbd+logging_iphoneos-arm64_2022-12-30.deb
+Size: 560334
+MD5sum: eaa1e37a934e788ad9974efa7793612f
+SHA1: a3c3b870cf6c206def632e0962307ea2d50b0961
+SHA256: 44ca28dd7414e4829cd3efe120ad0be718d2c2e7d42733ffe88ca13859f2432d
+SHA512: 982617b5c9c93818cc46791ad4bb87d398fc8f43393257b34fa0746a049f03e8d37f6f6525bc70ee310e4d4fdbe9721e4e2764f5075d2a1f5ea02cd6d863d51a
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Release with Logging)
+Author: Evelyn
+
+Package: ellekit-logging
+Architecture: iphoneos-arm
+Version: 4a25bbd+logging
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 1732
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-debug
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-debug
+Filename: ./pool/ellekit_4a25bbd+logging_iphoneos-arm_2022-12-30.deb
+Size: 560264
+MD5sum: a9fc018aa52bf1cc00677922ab48bdc1
+SHA1: b43d2a30dd9d38df28a5cae40f01fdcb99cbebdb
+SHA256: 4ff4cfcb831d252e87b352c9fb26fa4aa3f888703caf68c2462c5dc1cf886c72
+SHA512: a6cd5af805bbec17325bed06f796ad0a517f7e5819ae8b895f8a557c75cf5de86645eb751e822540e17732f9368d48311b112ac1dc7ade91760f9381b3a92dc8
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Release with Logging)
+Author: Evelyn
+
