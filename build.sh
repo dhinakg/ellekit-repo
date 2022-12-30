@@ -17,14 +17,14 @@ lzma -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.lzma
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
-        -o APT::FTPArchive::Release::Origin="Ellekit (unofficial)" \
-        -o APT::FTPArchive::Release::Label="Unofficial Ellekit builds" \
+        -o APT::FTPArchive::Release::Origin="ElleKit (unofficial)" \
+        -o APT::FTPArchive::Release::Label="Unofficial ElleKit builds" \
         -o APT::FTPArchive::Release::Suite="nightly" \
         -o APT::FTPArchive::Release::Version="1.0" \
         -o APT::FTPArchive::Release::Codename="ellekit-dhinakg" \
         -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64" \
         -o APT::FTPArchive::Release::Components="main" \
-        -o APT::FTPArchive::Release::Description="Unofficial nightly Ellekit builds from dhinakg. These are as close to stock as possible, but are not guaranteed to be supported by the developer." \
+        -o APT::FTPArchive::Release::Description="Unofficial nightly ElleKit builds from dhinakg. These are as close to stock as possible, but are not guaranteed to be supported by the developer." \
         release $OUTPUT_DIR > $OUTPUT_DIR/Release
 
 echo "[Repository] Signing Release using GPG Key..."
