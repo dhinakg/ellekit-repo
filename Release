@@ -1,11 +1,11 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ellekit-dhinakg
 Components: main
-Date: Fri, 30 Dec 2022 22:07:53 +0000
+Date: Sat, 31 Dec 2022 00:01:08 +0000
 Description: Unofficial nightly ElleKit builds from dhinakg. These are as close to stock as possible, but are not guaranteed to be supported by the developer.
 Label: Unofficial ElleKit builds
 Origin: ElleKit (unofficial)
-Suite: nightly
+Suite: stable
 Version: 1.0
 MD5Sum:
  f3e27c6d71b36ce9958b054a980c547f             7932 Packages
@@ -14,7 +14,7 @@ MD5Sum:
  54091501f26e47fba3eeed7464821853             1707 Packages.lzma
  adf1a44ceba9f294f69e11beba61bde6             1752 Packages.xz
  a88420d58afb9a425c1177757e9fb763             1766 Packages.zst
- bba089b9c1ea89458554fc87ca79196b              373 Release
+ 0177b90ad2170342a43f82c33dacdaa7              372 Release
 SHA1:
  011a9e97e35a18ae8f310514bc2ae445ec5e2909             7932 Packages
  6a95a473bee08b3810801c70689a006003c80105             2158 Packages.bz2
@@ -22,7 +22,7 @@ SHA1:
  aea1910d15a9f8800ce421a8fe5b32700a3b2337             1707 Packages.lzma
  07d3f482830cbea60037ef2feafec6040d3434d7             1752 Packages.xz
  4d5b9e714d8111376a0b8e623cd79393d7a871d7             1766 Packages.zst
- 0f79e837878312cf403d628c38e2811a897d8327              373 Release
+ 5f0c40f54c07d47ed3a27d517d0216eae0d83905              372 Release
 SHA256:
  412a4f2c75f0f0fc845dc22c7d250688a340c7e2e9b0f30e5123382252d77f14             7932 Packages
  e13f5cc7da35e27b856134cee099b49ac9e85d4f38d964f2d3392ab8afd27e40             2158 Packages.bz2
@@ -30,7 +30,7 @@ SHA256:
  6a9fb367ded2eeb1e2a325267862ee076c023e4434d5bba3d0bb213ed20304c4             1707 Packages.lzma
  6649db5ccee5b8c4b92ee15aaa5af4acb39574889a2ff18755ab3a2c7270c268             1752 Packages.xz
  354b33f48af0b2ffe008c1ac09c7bf8d47ead7c34a9c98e84c3578a0ec9e4ffd             1766 Packages.zst
- c7a1a8143038235e546677a3275e36f470112a81f323ded995145569163f58af              373 Release
+ 766ae1a0a7b72efe7f7603a4e344d1c8643b2f687c6425f05d135a1747c5521c              372 Release
 SHA512:
  8e5e520684a98026c56abca07362ff33d1fff458c37820d778a7786dd220e5d2f9e24bb6ec522aacf2ecc793b0504bdb1ab1270db67ea332c7e4637610c313cd             7932 Packages
  2ecfb2c5cf96a268103615402d495ca5aca69423eaf518ee991d32766ffe998e3fffc186b944b776e592456990dd957d361bc95eb6ae81b6fc1fd2c2760dc367             2158 Packages.bz2
@@ -38,4 +38,4 @@ SHA512:
  ceff4d5968f900383de98bc2a9e6b0339ef906e08675e4f6a5932f3ba63086856aa4a1cbdb32b4ac4fb5897c27be502893d9b20990cdf77325b65b964a066834             1707 Packages.lzma
  bc9693420be813142257dce6cbaaefbae06089b95c39ca11f286fe9913f7b1ae775fa36fc9759acc843e435ae91a4d750d2f72c9c53e683d04230740fe6b692a             1752 Packages.xz
  d0c65ac084e27970fccd821c6e402a37aeda7c458408e21b0da06911ccbf823fca35a21e0d94dbeecf4f3699d0539e945b0bf6e4de14bff99387249eccc61dbd             1766 Packages.zst
- 7ed2468eeb2a0b3cbebaac578b7c378a0bc940478063ad2b0159fc0ca3735c9172adf6be67a993cecc28857d923c8155d2e00b3293634fb8c49505550672a228              373 Release
+ d9b9c7575e2b3712da8c4a3f293d66d099b547bfdcc4d77fb6aaf5202f46a21c71b5019d3bb82dede175127838f5ede9a70266c9d62716dd53ba6826ca389031              372 Release
