@@ -19,7 +19,7 @@ echo "[Repository] Generating Release..."
 apt-ftparchive \
         -o APT::FTPArchive::Release::Origin="ElleKit (unofficial)" \
         -o APT::FTPArchive::Release::Label="Unofficial ElleKit builds" \
-        -o APT::FTPArchive::Release::Suite="nightly" \
+        -o APT::FTPArchive::Release::Suite="stable" \
         -o APT::FTPArchive::Release::Version="1.0" \
         -o APT::FTPArchive::Release::Codename="ellekit-dhinakg" \
         -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64" \
