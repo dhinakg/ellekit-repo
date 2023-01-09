@@ -2078,3 +2078,159 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit (Beta)
 Author: Evelyn
 
+Package: ellekit-dhinak
+Architecture: iphoneos-arm
+Version: 0.2~4.3360db8+debug+dhinak
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2832
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-debug
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-debug
+Filename: ./pool/ellekit_0.2~4.3360db8+debug+dhinak_iphoneos-arm.deb
+Size: 955880
+MD5sum: f93ef2b9abd36c224eb80c646ff89b08
+SHA1: b5c1b1c2e2a6e26712968c1e329c53498b4fd3c0
+SHA256: cba9771a6d65bd48bb095d539597d785f793d5bdb0d1d7e1ef51861672e04464
+SHA512: bfb0ece364c43f94aa3dcf1b64aa8c6384df6b076a6f34795df963e61f8e229dbf75908ef59f4557664d2eecafd0b32a2cc15f25df2b53fe90ddb8dd41c1631f
+Description: ElleKit tweak injection libraries and loader (special build)
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Dhinak)
+Author: Evelyn
+
+Package: ellekit-dhinak
+Architecture: iphoneos-arm64
+Version: 0.2~4.3360db8+debug+dhinak
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2832
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-debug
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-debug
+Filename: ./pool/ellekit_0.2~4.3360db8+debug+dhinak_iphoneos-arm64.deb
+Size: 955960
+MD5sum: 84bbcd47f1cb4cbfd2b8507accfbb4d5
+SHA1: 70e13eaa7f32655be7957ad45dae4b20af68c830
+SHA256: 6b011794698cb5fe304bf0aea7da7c0303c55bd925916d66484495f94f137940
+SHA512: 8d90a9feb486cc5a507ac488863cd8be4669dafbbf24b923c30e20f7fd9ce84d0b8e0c26301d2840ed413e5e063262db01fbea3ef51f44ce41121c1cb2baf508
+Description: ElleKit tweak injection libraries and loader (special build)
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Dhinak)
+Author: Evelyn
+
+Package: ellekit-debug
+Architecture: iphoneos-arm
+Version: 0.2~4.3360db8+debug
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2832
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-dhinak
+Filename: ./pool/ellekit_0.2~4.3360db8+debug_iphoneos-arm.deb
+Size: 955874
+MD5sum: 23c13b16490d3ab5440df4a614b5415e
+SHA1: d6eff548e36d519f6cea91344d495cc77e8c8ded
+SHA256: 890348cb638a9780aa1ef7c211aaf54f5b8a2f8b30f0e590efbb34b254c697ed
+SHA512: b5208098cb94965b540d18ffaf4d2b90a6f273eb46f189c13305d010304d22f4c73341eb0eba5a65284000ee64c91f132363a37eb50752e4fb466661ad802254
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Debug)
+Author: Evelyn
+
+Package: ellekit-debug
+Architecture: iphoneos-arm64
+Version: 0.2~4.3360db8+debug
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2832
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9), ellekit
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit, ellekit-dhinak
+Filename: ./pool/ellekit_0.2~4.3360db8+debug_iphoneos-arm64.deb
+Size: 955936
+MD5sum: 320c1a8c445dde5d18555659a3ab0fef
+SHA1: 1249cd9ca0f2e4d1dd50a49206199e7db47e5d2c
+SHA256: d3e4578ec17742bc27c69868c10f8cbeb44a57a74b49495dfa54924baf994bf9
+SHA512: 3090bea181b17514c908e404ab327b64c220a86da7d61e694f749dd5729a398284e7eba0374dc099e16b1ed48887d70a19f845478df9eabbd708ddd428eb7012
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta) (Debug)
+Author: Evelyn
+
+Package: ellekit
+Architecture: iphoneos-arm
+Version: 0.2~4.3360db8
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2088
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Filename: ./pool/ellekit_0.2~4.3360db8_iphoneos-arm.deb
+Size: 676596
+MD5sum: 60a555c236b3fbc888c3910a07caabc0
+SHA1: e23081fddf0011aa3429b4eeeefd6cc8e5fd847f
+SHA256: 1f50662048d5f48d30a70669beb595514226ae69a83e4dd2d89e08585bcd3be1
+SHA512: 9d7bfb94667033b0c6876e04f6a74e0688d7af4734152f925764e28dbd7d4549bd9a272907a4e5c1fc97a8ff8469492d382767e3bd149b6cd1786d3be277fac4
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta)
+Author: Evelyn
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.2~4.3360db8
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 2088
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: cy+cpu.arm64e, com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit-debug, ellekit-dhinak
+Filename: ./pool/ellekit_0.2~4.3360db8_iphoneos-arm64.deb
+Size: 676684
+MD5sum: bb4e7f7179c2cd14f000ef616fa2a570
+SHA1: 581f7076615f2ba9acdbd31e9f8fa3d046194e68
+SHA256: 75ff3f5b7f801aafa9959d5cec87c490f097099f2a6d78bccbe1614f7ac5a893
+SHA512: fbeaa66591c82f188a8dde2dc029b156936942b3912de4fba449ce3cde6f0608a8daea4a55a683ae22be6c547ec6a27ea9ba9254d7b5da593412028cfda33c21
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+ These are unofficial builds from https://github.com/dhinakg/ellekit
+ and are as close to stock as possible, but are not guaranteed to be
+ supported by the developer.
+Name: ElleKit (Beta)
+Author: Evelyn
+
